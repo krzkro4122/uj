@@ -1,0 +1,32 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                                   controllers.HomeController.index()
+GET     /explore                            controllers.HomeController.explore()
+GET     /tutorial                           controllers.HomeController.tutorial()
+GET     /hello                              controllers.HomeController.hello(name: String)
+# Products
+GET     /product                            controllers.ProductController.showAllProducts()
+GET     /product/:id                        controllers.ProductController.showProduct(id: Long)
+PUT     /product/:id                        controllers.ProductController.updateProduct(id: Long)
+DELETE  /product/:id                        controllers.ProductController.deleteProduct(id: Long)
+POST    /product                            controllers.ProductController.addProduct()
+# Categories
+GET     /category                            controllers.ProductController.showAllCategories()
+GET     /category/:category                  controllers.ProductController.showCategory(category: String)
+PUT     /category/:id                        controllers.ProductController.updateCategory(id: Long)
+DELETE  /category/:id                        controllers.ProductController.deleteCategory(id: Long)
+POST    /category                            controllers.ProductController.addCategory()
+## Shopping cart
+GET     /cart                                controllers.ProductController.showAllCartMembers()
+GET     /cart/:id                            controllers.ProductController.showCartMember(id: Long)
+PUT     /cart/:id                            controllers.ProductController.updateCartMember(id: Long)
+DELETE  /cart/:id                            controllers.ProductController.deleteCartMember(id: Long)
+POST    /cart                                controllers.ProductController.addCartMember()
+POST    /cart/buy                            controllers.ProductController.buyCart()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

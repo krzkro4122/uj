@@ -1,0 +1,9 @@
+FROM rapidfort/flaskapp:latest
+
+COPY ./chatter-service /chatter-service
+
+WORKDIR /chatter-service
+
+RUN pip install -r ./requirements.txt
+
+CMD [ "python3", "service.py" ]

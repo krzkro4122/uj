@@ -1,0 +1,7 @@
+.chat {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    align-items: start;
+    align-content: center;
+}

@@ -1,0 +1,10 @@
+FROM node
+
+ENV TZ=Europe/Warsaw
+
+EXPOSE 5713
+
+COPY shop-front .
+
+RUN npm i
+RUN npm run build
