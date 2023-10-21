@@ -1,0 +1,5 @@
+c:\users\student\documents\visual studio 2012\Projects\first\first\bin\Release\first.exe.config
+c:\users\student\documents\visual studio 2012\Projects\first\first\bin\Release\first.exe
+c:\users\student\documents\visual studio 2012\Projects\first\first\bin\Release\first.pdb
+c:\users\student\documents\visual studio 2012\Projects\first\first\obj\Release\first.exe
+c:\users\student\documents\visual studio 2012\Projects\first\first\obj\Release\first.pdb

@@ -1,0 +1,5 @@
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Debug\second.exe.config
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Debug\second.exe
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Debug\second.pdb
+c:\users\student\documents\visual studio 2012\Projects\second\second\obj\Debug\second.exe
+c:\users\student\documents\visual studio 2012\Projects\second\second\obj\Debug\second.pdb

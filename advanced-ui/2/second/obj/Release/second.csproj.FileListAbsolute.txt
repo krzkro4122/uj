@@ -1,0 +1,12 @@
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Release\second.exe.config
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Release\second.exe
+c:\users\student\documents\visual studio 2012\Projects\second\second\bin\Release\second.pdb
+c:\users\student\documents\visual studio 2012\Projects\second\second\obj\Release\second.exe
+c:\users\student\documents\visual studio 2012\Projects\second\second\obj\Release\second.pdb
+C:\Users\layor\rep\uj\advanced-ui\2\second\bin\Release\second.exe.config
+C:\Users\layor\rep\uj\advanced-ui\2\second\bin\Release\second.exe
+C:\Users\layor\rep\uj\advanced-ui\2\second\bin\Release\second.pdb
+C:\Users\layor\rep\uj\advanced-ui\2\second\obj\Release\second.csproj.AssemblyReference.cache
+C:\Users\layor\rep\uj\advanced-ui\2\second\obj\Release\second.csproj.CoreCompileInputs.cache
+C:\Users\layor\rep\uj\advanced-ui\2\second\obj\Release\second.exe
+C:\Users\layor\rep\uj\advanced-ui\2\second\obj\Release\second.pdb
