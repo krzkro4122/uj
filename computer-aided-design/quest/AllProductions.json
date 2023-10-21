@@ -1,0 +1,270 @@
+[
+  {
+    "Title": "Deleting the group in Port resulting in true intent / Rozgrupowanie bohaterów w Porcie pokazujące prawdziwe intencje",
+    "TitleGeneric": "Deleting the group / Rozgrupowanie bohaterów",
+    "Description": "Rozwiązywanie grupy bohaterów podległych postaci Main_hero w lokacji Port.",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Port",
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true,
+              "Characters":[
+                  {
+                    "Name": "Bandit",
+                    "Items": [
+                      {
+                        "Name": "Ship_ticket"
+                      }
+                    ],
+                    "Narration": [
+                      {
+                        "Name": "Intent",
+                        "Attributes": {
+                          "Knowledge": "The bandit is trying to get to the city and board the ship with his Ship_ticket!"
+                        }
+                      }
+                    ]
+                  }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Main_hero/Characters/*",
+        "To": "Port/Characters"
+      },
+      {
+        "Op": "copy",
+        "To": "Main_hero/Narration",
+        "Nodes": "Intent"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Main_hero.Money",
+        "Expr": "Main_hero.Money + 300"
+      }
+    ]
+  },
+  {
+    "Title": "Entering the ship with the Ship_ticket / Wejście na statek z Ship_ticket",
+    "TitleGeneric": "Location change / Zmiana lokacji",
+    "Description": "Główny bohater (Main_hero) wchodzi na statek (Ship) z lokacji Port dzięki posiadanemu biletowi (Ship_ticket).",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Port",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true,
+              "Characters": [],
+              "Items": [
+                {
+                  "Name": "Ship_ticket"
+                }
+              ]
+            }
+          ],
+          "Items": [],
+          "Connections": [
+            {
+              "Destination": "Ship"
+            }
+          ]
+        },
+        {
+          "Name": "Ship"
+        }
+      ]
+    },
+    "RSide": {},
+    "Preconditions": [],
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Main_hero",
+        "To": "Ship/Characters"
+      },
+      {
+        "Op": "delete",
+        "Nodes": "Ship_ticket"
+      }
+    ]
+  },
+  {
+    "Title": "Making a deal while having knowledge / Transakcja kupna-sprzedaży przy posiadaniu wiedzy",
+    "TitleGeneric": "Item acquisition from another character / Przejęcie przedmiotu od innej postaci",
+    "Description": "Bandit sprzedaje kupującemu (Main_hero) przedmiot (Ship_ticket).",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Port",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true,
+              "Attributes": {
+                "Money": null
+              },
+              "Narration":[
+                {
+                  "Name": "Intent",
+                  "Attributes": {
+                    "Knowledge": "The bandit is trying to get to the city and board the ship with his Ship_ticket!"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Bandit",
+              "Attributes": {
+                "Money": null
+              },
+              "Narration": [
+                {
+                  "Name": "Intent",
+                  "Attributes": {
+                    "Knowledge": "The bandit is trying to get to the city and board the ship with his Ship_ticket!"
+                  }
+                }
+              ],
+              "Characters": [],
+              "Items": [
+                {
+                  "Name": "Ship_ticket",
+                  "Attributes": {
+                    "Value": 1500
+                  }
+                }
+              ]
+            }
+          ],
+          "Items": [],
+          "Connections": []
+        }
+      ]
+    },
+    "RSide": {},
+    "Preconditions": [
+      {
+        "Cond": "Main_hero.Money >= Ship_ticket.Value"
+      },
+      {
+        "Cond": "Main_hero/Narration/Intent == true"
+      }
+    ],
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Ship_ticket",
+        "To": "Main_hero/Items"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Main_hero.Money",
+        "Expr": "Main_hero.Money - Ship_ticket.Value"
+      },
+      {
+        "Op": "set",
+        "Attribute": "Bandit.Money",
+        "Expr": "Bandit.Money + Ship_ticket.Value"
+      }
+    ]
+  },
+  {
+    "Title": "Main_hero grouping with Bandit / Main_hero grupuje się z Bandytą",
+    "TitleGeneric": "Overwhelming character / Przejęcie kontroli nad postacią ",
+    "Description": "Stworzenie grupy z dwóch bohaterów: Main_hero przejmuje kontrolę nad inną postacią (Bandit).",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Id": "Anywhere",
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true
+            },
+            {
+              "Name": "Bandit"
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Preconditions":[
+      {
+          "Cond": "Bandit/Items/Priceless_argentinian_cactus == true"
+      }
+    ],
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Bandit",
+        "To": "Main_hero/Characters"
+      }
+    ]
+  },
+  {
+    "Title": "Hiring bandit for cactus / Wynajęcie zbójcy w zamian za kaktus",
+    "TitleGeneric": "Making a deal / Transakcja kupna-sprzedaży",
+    "Description": "Main_hero wynajmuje Bandit w zamian za Priceless_argentinian_cactus.",
+    "Override": 1,
+    "LSide": {
+    "Locations": [
+        {
+        "Id": "Somewhere",
+        "Attributes": {},
+        "Characters": [
+            {
+            "Name": "Main_hero",
+            "IsObject": true,
+            "Items": [
+              {
+                  "Name": "Priceless_argentinian_cactus"
+              }
+            ]
+            },
+            {
+            "Name": "Bandit"
+            }
+        ],
+        "Items": [],
+        "Connections": []
+        }
+    ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Main_hero/Items/Priceless_argentinian_cactus",
+        "To": "Bandit/Items"
+      },
+      {
+        "Op": "create",
+        "In": "Main_hero/Narration",
+        "Sheaf": {
+          "Name": "Escort_quest",
+          "Attributes": {
+            "Knowledge": "The bandit needs to get to the port. You will be rewarded accordingly."
+          }
+        }
+      }
+    ]
+  }
+]

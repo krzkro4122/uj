@@ -1,0 +1,41 @@
+[
+    {
+      "Title": "Picking item up / Podniesienie przedmiotu",
+      "TitleGeneric": "",
+      "Description": "«Bohater» podnosi przedmiot («Something») leżący w lokacji.",
+      "Override": 0,
+      "LSide": {
+        "Locations": [
+          {
+            "Id": "LokacjaA",
+            "Attributes": {},
+            "Characters": [
+              {
+                "Id": "Bohater",
+                "IsObject": true,
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ],
+            "Items": [
+              {
+                "Id": "Something",
+                "Attributes": {},
+                "Characters": [],
+                "Items": []
+              }
+            ]
+          }
+        ]
+      },
+      "RSide": {},
+      "Instructions": [
+        {
+          "Op": "move",
+          "Nodes": "Something",
+          "To": "Bohater/Items"
+        }
+      ]
+    }
+  ]

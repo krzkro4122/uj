@@ -1,0 +1,68 @@
+[
+    {
+        "Title": "Making a deal while having knowledge / Transakcja kupna-sprzedaży przy posiadaniu wiedzy",
+        "TitleGeneric": "Item acquisition from another character / Przejęcie przedmiotu od innej postaci",
+        "Description": "«Seller» sprzedaje kupującemu («Buyer») przedmiot («Something»).",
+        "Override": 1,
+        "LSide": {
+          "Locations": [
+            {
+              "Id": "Somewhere",
+              "Attributes": {},
+              "Characters": [
+                {
+                  "Id": "Buyer",
+                  "IsObject": true,
+                  "Attributes": {
+                    "Money": null
+                  }
+                },
+                {
+                  "Id": "Seller",
+                  "Attributes": {
+                    "Money": null
+                  },
+                  "Characters": [],
+                  "Items": [
+                    {
+                      "Id": "Something",
+                      "Attributes": {
+                        "Value": null
+                      }
+                    }
+                  ]
+                }
+              ],
+              "Items": [],
+              "Connections": []
+            }
+          ]
+        },
+        "RSide": {},
+        "Preconditions": [
+          {
+            "Cond": "Buyer.Money >= Something.Value"
+          },
+          {
+            "Cond": "Buyer/Narration/Intent == true"
+          }
+        ],
+        "Instructions": [
+          {
+            "Op": "move",
+            "Nodes": "Something",
+            "To": "Buyer/Items"
+          },
+          {
+            "Op": "set",
+            "Attribute": "Buyer.Money",
+            "Expr": "Buyer.Money - Something.Value"
+          },
+          {
+            "Op": "set",
+            "Attribute": "Seller.Money",
+            "Expr": "Seller.Money + Something.Value"
+          }
+        ]
+      }
+]

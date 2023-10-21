@@ -1,0 +1,41 @@
+
+[
+    {
+        "Title": "Hiring bandit for cactus / Wynajęcie zbójcy w zamian za kaktus",
+        "TitleGeneric": "Making a deal / Transakcja kupna-sprzedaży",
+        "Description": "Main_hero wynajmuje Bandit w zamian za Priceless_argentinian_cactus.",
+        "Override": 1,
+        "LSide": {
+        "Locations": [
+            {
+            "Id": "Somewhere",
+            "Attributes": {},
+            "Characters": [
+                {
+                "Name": "Main_hero",
+                "IsObject": true,
+                "Items": [
+                    {
+                        "Name": "Priceless_argentinian_cactus"
+                    }
+                ]
+                },
+                {
+                "Name": "Bandit"
+                }
+            ],
+            "Items": [],
+            "Connections": []
+            }
+        ]
+        },
+        "RSide": {},
+        "Instructions": [
+            {
+                "Op": "move",
+                "Nodes": "Main_hero/Items/Priceless_argentinian_cactus",
+                "To": "Bandit/Items"
+            }
+        ]
+    }
+]

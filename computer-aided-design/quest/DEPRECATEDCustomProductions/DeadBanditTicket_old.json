@@ -1,0 +1,42 @@
+[
+  {
+    "Title": "Obtaining the ship ticket from the dead bandit's body / Podniesienie biletu na statek ze zwłok bandyty",
+    "TitleGeneric": "Turning a dead character into an item / Zamiana martwej postaci w przedmiot",
+    "Description": "Martwa postać bandyty znika a bohater zabiera bilet na statek.",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Forest",
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true
+            },
+            {
+              "Name": "Bandit",
+              "Items": [
+                  {"Name": "Ship_ticket"}
+              ],
+              "Attributes": {
+                "IsDead": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "RSide": {},
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Bandit/Items/*",
+        "To": "Main_hero/Items"
+      },
+      {
+        "Op": "delete",
+        "Nodes": "Bandit"
+      }
+    ]
+  }
+]

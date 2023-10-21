@@ -1,0 +1,158 @@
+<mxfile host="65bd71144e">
+    <diagram id="rBSgoj9HJtxGg2TZJlce" name="MainHeroGraph">
+        <mxGraphModel dx="878" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="knElHw7sFrbxN24FAate-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;strokeColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="141" y="80" width="280" height="1100" as="geometry"/>
+                </mxCell>
+                <mxCell id="knElHw7sFrbxN24FAate-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#fff2cc;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="1200" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="yheXPJXm5rJ7QyqMhBtf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="udCvL247iI1tZjiPNQ4e-1" target="yheXPJXm5rJ7QyqMhBtf-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="udCvL247iI1tZjiPNQ4e-1" value="&lt;div style=&quot;box-sizing: border-box; font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;div style=&quot;&quot;&gt;(Main_hero posiada Priceless_argentinian_cactus, Q11)&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="10" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="-C3S8FsxY2Nnwz9JlQiH-3" target="hUhabbhy1jZWXqfZA_R5-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-C3S8FsxY2Nnwz9JlQiH-3" value="&lt;font style=&quot;&quot; color=&quot;#080808&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Atrybut Money postaci Main_hero wynosi przynajmniej 1500&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
+                    <mxGeometry x="464" y="789.8399999999999" width="260" height="53.44" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yheXPJXm5rJ7QyqMhBtf-1" target="Aq-91_FwgD_IsqAX_BWq-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="yheXPJXm5rJ7QyqMhBtf-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hiring bandit for cactus / Wynajęcie zbójcy w zamian za kaktus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="90" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lA9DHG8efDeV6roo1jQF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jlGJhvShgQ8dnmSe3Gb2-2" target="BtwuoIAPwvGNC_7e4r1O-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="nKahLlN3erMrmPblMIUS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jlGJhvShgQ8dnmSe3Gb2-2" target="nKahLlN3erMrmPblMIUS-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="20" y="420.25" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jlGJhvShgQ8dnmSe3Gb2-2" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Group fight ending with character’s death / Walka grupowa zakończona śmiercią uczestnika&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_Hero,&amp;nbsp;&lt;b&gt;Troll&lt;/b&gt;)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="380" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="jDJ186llfTBJSGtvXf8A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="BtwuoIAPwvGNC_7e4r1O-7" target="M_umh8XXAWj-DOQAs8fj-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BtwuoIAPwvGNC_7e4r1O-7" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Location change / Zmiana lokacji&lt;/font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_hero, Forest)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="490" width="260" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="_OSf8yGIqV2NRYJ29WRy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M_umh8XXAWj-DOQAs8fj-1" target="Aq-91_FwgD_IsqAX_BWq-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M_umh8XXAWj-DOQAs8fj-1" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Deleting the group / Rozgrupowanie bohaterów&lt;/font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_Hero)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="590" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="irsXxmj_owirD-AWfpEa-7" target="irsXxmj_owirD-AWfpEa-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-31" y="844.0599999999997" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="irsXxmj_owirD-AWfpEa-7" target="InU0JUnMionHLz43opVa-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="irsXxmj_owirD-AWfpEa-7" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fight ending with character’s death / Walka zakończona śmiercią uczestnika&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_Hero, Bandit)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="781.56" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="irsXxmj_owirD-AWfpEa-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="51" y="796.56" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="jDJ186llfTBJSGtvXf8A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="InU0JUnMionHLz43opVa-1" target="jDJ186llfTBJSGtvXf8A-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="InU0JUnMionHLz43opVa-1" value="&lt;font&gt;Obtaining the ship ticket from the dead bandit's body / Podniesienie biletu na statek ze zwłok bandyty&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;align=center;fontSize=14;fontFamily=Helvetica;fillColor=#d5e8d4;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="886.81" width="259" height="71" as="geometry"/>
+                </mxCell>
+                <mxCell id="jDJ186llfTBJSGtvXf8A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="hUhabbhy1jZWXqfZA_R5-1" target="jDJ186llfTBJSGtvXf8A-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hUhabbhy1jZWXqfZA_R5-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Wymiana 1500 Money na Ship_ticket / Exchanging 1500 Money for Ship_ticket&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="464" y="1003.25" width="260" height="56.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Aq-91_FwgD_IsqAX_BWq-2" target="Aq-91_FwgD_IsqAX_BWq-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-2" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;arial&quot;&gt;Main_hero grouping with Bandit / Main_hero grupuje się z Bandytą&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="190" width="260" height="60.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="8yjVy0ktyzx2GrUyOU-N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="Aq-91_FwgD_IsqAX_BWq-3" target="jlGJhvShgQ8dnmSe3Gb2-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-3" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Location change / Zmiana lokacji&lt;/font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_hero, Forest)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="290" width="260" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="Aq-91_FwgD_IsqAX_BWq-13" target="-C3S8FsxY2Nnwz9JlQiH-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="Aq-91_FwgD_IsqAX_BWq-13" target="irsXxmj_owirD-AWfpEa-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-13" value="&lt;font face=&quot;arial&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Discussion ending with an intent reveal / Dyskusja kończąca się odkryciem zamiarów&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="151" y="684.81" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nKahLlN3erMrmPblMIUS-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=center;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="51" y="400.25" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="_OSf8yGIqV2NRYJ29WRy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Aq-91_FwgD_IsqAX_BWq-59" target="knElHw7sFrbxN24FAate-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Aq-91_FwgD_IsqAX_BWq-59" value="&lt;font face=&quot;arial&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Entering the ship with the Ship_ticket / Wejście na statek z Ship_ticket&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="1100" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="jDJ186llfTBJSGtvXf8A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="jDJ186llfTBJSGtvXf8A-1" target="Aq-91_FwgD_IsqAX_BWq-59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jDJ186llfTBJSGtvXf8A-1" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;arial&quot;&gt;Location change / Zmiana lokacji;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_hero, Port)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="1000" width="260" height="63" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="OXKvwzeNN0AbGJdyXs9F" name="BanditGraph">
+        <mxGraphModel dx="546" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6yOMRktUwX_5S2notlcs-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Discussion ending with an intent reveal / Dyskusja kończąca się odkryciem zamiarów&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_Hero, Bandit)&lt;/span&gt;&lt;font face=&quot;arial&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="650" width="260" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="HtdlDDOSRFhwwa1K5tbW" name="TrollGraph">
+        <mxGraphModel dx="746" dy="263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3H0dnNPNbFGdA8W6kS2J-2" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F7fZ61m2T2eOI5no95bQ-1" target="3H0dnNPNbFGdA8W6kS2J-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="F7fZ61m2T2eOI5no95bQ-1" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Location change / Zmiana lokacji&lt;/font&gt;&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(&lt;b&gt;Troll&lt;/b&gt;, Forest)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="360" width="260" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="3H0dnNPNbFGdA8W6kS2J-3" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3H0dnNPNbFGdA8W6kS2J-1" target="F7fZ61m2T2eOI5no95bQ-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="270" y="600"/>
+                            <mxPoint x="440" y="600"/>
+                            <mxPoint x="440" y="310"/>
+                            <mxPoint x="270" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3H0dnNPNbFGdA8W6kS2J-1" value="&lt;span id=&quot;docs-internal-guid-4cfbbf0f-7fff-1ddc-6e00-4f36d3d0db7e&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&lt;font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Fight ending with character’s death / Walka grupowa zakończona śmiercią uczestnika&lt;/font&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Main_Hero,&amp;nbsp;&lt;b&gt;Troll&lt;/b&gt;)&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="460" width="260" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

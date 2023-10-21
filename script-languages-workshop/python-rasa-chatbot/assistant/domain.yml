@@ -1,0 +1,101 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - order_meal
+  - check_open
+  - check_menu
+
+entity:
+- meal
+
+slots:
+  open_now:
+    type: bool
+    influence_conversation: true
+    mappings:
+    - type: custom
+  order:
+    type: list
+    influence_conversation: false
+    mappings:
+    - type: custom
+  ordered_meals:
+    type: bool
+    influence_conversation: false
+    mappings:
+    - type: custom
+
+forms:
+  order_form:
+    ignored_intents:
+      - check_menu
+      - check_open
+      - bot_challenge
+      - mood_unhappy
+      - mood_great
+      - deny
+      - affirm
+      - goodbye
+      - greet
+    required_slots:
+      - order
+
+actions:
+  - action_show_opening_hours
+  - action_show_menu
+  - action_confirm_order
+  - validate_order_form
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to the restaurant!"
+  - text: "Hi! Feel at home in our restaurant, please!"
+  - text: "Hello there! You can ask me if we're open or about our menu!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am not a bot and i am (FOR SURE) not powered by Rasa."
+  - text: "Nah, i am just kidding. I am robocop. (*_*)"
+
+  utter_pick_meal:
+  - text: "What meal would you like to get?"
+  - text: "Would you like anything?"
+  - text: "What can i get you?"
+
+  utter_ask_meals:
+  - text: "Got it! What else would you like to get? (say 'done' to stop)"
+  - text: "Got that! Would you like anything else? (say 'done' to stop)"
+  - text: "Noted! What else can i get you? (say 'done' to stop)"
+
+  utter_ask_order_form_meals:
+  - text: "Got it! What else would you like to get? (say 'done' to stop)"
+  - text: "Got that! Would you like anything else? (say 'done' to stop)"
+  - text: "Noted! What else can i get you? (say 'done' to stop)"
+
+  utter_invite_later:
+  - text: "Please come back when we are open!"
+  - text: "Sorry but we cannot take your order when we are closed!"
+  - text: "We invite you to visit us later!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

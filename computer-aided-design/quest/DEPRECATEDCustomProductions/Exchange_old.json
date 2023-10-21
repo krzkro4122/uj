@@ -1,0 +1,62 @@
+[
+{
+    "Title": "Wymiana 1500 Money na Ship_ticket / Exchanging 1500 Money for Ship_ticket",
+    "TitleGeneric": "Exchanging item for item / Wymiana przedmiotu na przedmiot",
+    "Description": "Main_hero wymienia się z Bandit 1500 Money w zamian za Ship_ticket.",
+    "Override": 0,
+    "LSide": {
+    "Locations": [
+        {
+        "Name": "Forest",
+        "Attributes": {},
+        "Characters": [
+            {
+            "Name": "Main_hero",
+            "IsObject": true,
+            "Attributes": {
+                "Money": 1500
+            }
+            },
+            {
+            "Name": "Bandit",
+            "Attributes": {
+                "Money": null
+            },
+            "Characters": [],
+            "Items": [
+                {
+                "Name": "Ship_ticket"
+                }
+            ]
+            }
+        ],
+        "Items": [],
+        "Connections": []
+        }
+    ]
+    },
+    "RSide": {},
+    "Preconditions": [
+        {
+          "Cond": "Bandit/Items/Priceless_argentinian_cactus == true"
+        }
+      ],
+    "Instructions": [
+    {
+    "Op": "set",
+    "Attribute": "Main_hero.Money",
+    "Expr": "Main_hero.Money - 1500"
+    },
+    {
+    "Op": "set",
+    "Attribute": "Bandit.Money",
+    "Expr": "1500"
+    },
+    {
+        "Op": "move",
+        "Nodes": "Ship_ticket",
+        "To": "Main_hero/Items"
+    }
+    ]
+}
+]

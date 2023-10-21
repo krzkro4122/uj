@@ -1,0 +1,59 @@
+version: "3.1"
+
+stories:
+
+  - story: happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
+
+  - story: sad path 1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
+
+  - story: sad path 2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
+
+  - story: order long, closed
+    steps:
+    - intent: check_open
+    - action: action_show_opening_hours
+    - slot_was_set:
+      - open_now: False
+    - action: utter_invite_later
+
+  - story: order long, open
+    steps:
+    - intent: check_open
+    - action: action_show_opening_hours
+    - slot_was_set:
+      - open_now: True
+    - action: action_show_menu
+    - action: utter_pick_meal
+    # - action: order_form
+    # - active_loop: order_form
+    # - action: action_confirm_order
+
+  - story: order short
+    steps:
+    - intent: check_menu
+    - action: action_show_menu
+    - action: utter_pick_meal
+    # - action: order_form
+    # - active_loop: order_form
+    # - action: action_confirm_order

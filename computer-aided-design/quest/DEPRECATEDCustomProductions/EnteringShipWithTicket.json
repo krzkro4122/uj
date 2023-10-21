@@ -1,0 +1,50 @@
+[
+  {
+    "Title": "Entering the ship with the Ship_ticket / Wejście na statek z Ship_ticket",
+    "TitleGeneric": "Location change / Zmiana lokacji",
+    "Description": "Główny bohater (Main_hero) wchodzi na statek (Ship) z lokacji Port dzięki posiadanemu biletowi (Ship_ticket).",
+    "Override": 1,
+    "LSide": {
+      "Locations": [
+        {
+          "Name": "Port",
+          "Attributes": {},
+          "Characters": [
+            {
+              "Name": "Main_hero",
+              "IsObject": true,
+              "Characters": [],
+              "Items": [
+                {
+                  "Name": "Ship_ticket"
+                }
+              ]
+            }
+          ],
+          "Items": [],
+          "Connections": [
+            {
+              "Destination": "Ship"
+            }
+          ]
+        },
+        {
+          "Name": "Ship"
+        }
+      ]
+    },
+    "RSide": {},
+    "Preconditions": [],
+    "Instructions": [
+      {
+        "Op": "move",
+        "Nodes": "Main_hero",
+        "To": "Ship/Characters"
+      },
+      {
+        "Op": "delete",
+        "Nodes": "Ship_ticket"
+      }
+    ]
+  }
+]
