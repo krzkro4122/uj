@@ -229,16 +229,26 @@ namespace BootlegWarThunder
                 case 1:
                     player1Board.IsHitTestVisible = true;
                     player2Board.IsHitTestVisible = false;
-
-                    Random random = new();
+                    
                     ButtonAutomationPeer peer = new
                     (
-                        player1Board.Children[random.Next(BoardSize * BoardSize)] as Button
+                        FindAFreeRandomButton()
                     );
                     IInvokeProvider? invokeProv = peer.GetPattern(PatternInterface.Invoke) as IInvokeProvider;
                     invokeProv?.Invoke();
                     break;
             }
+        }
+
+        private Button? FindAFreeRandomButton()
+        {
+            Random random = new();
+            Button? someButton = player1Board.Children[random.Next(BoardSize * BoardSize)] as Button;            
+            if (someButton.IsHitTestVisible)
+            {
+                return someButton;
+            }
+            return FindAFreeRandomButton();
         }
     }
 }
