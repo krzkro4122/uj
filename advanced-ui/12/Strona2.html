@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>
+        Strona 2
+    </title>
+    <script type="text/javascript" src="Script2.js"></script>
+    link
+</head>
+
+<body>
+    <div id="output">
+
+    </div>
+
+    <script>
+        const outputDiv = document.querySelector("#output");
+        outputDiv.innerHTML += `<b>${"Kwadrat"}<br/></b>`
+        outputDiv.innerHTML += `funkcjaKwadratowa(1, 2, -3) = ${funkcjaKwadratowa(1, 2, -3)}<br/>`
+        outputDiv.innerHTML += `funkcjaKwadratowa(1, 2, 1) = ${funkcjaKwadratowa(1, 2, 1)}<br/>`
+        outputDiv.innerHTML += `funkcjaKwadratowa(1, 2, 1) = ${funkcjaKwadratowa(1, 2, 1)}<br/>`
+
+        outputDiv.innerHTML += `<br/><b>${"Odwrot<br/>"}</b>`
+        outputDiv.innerHTML += `zapiszWTablicy([1, 2, 3]) = ${zapiszWTablicy([1, 2, 3])}<br/>`
+        outputDiv.innerHTML += `zapiszWTablicy(['a', 'b', 'c']) = ${zapiszWTablicy(['a', 'b', 'c'])}<br/>`
+
+        outputDiv.innerHTML += `<br/><b>${"Szescian<br/>"}</b>`
+        outputDiv.innerHTML += `objetoscSzescianu(1) = ${objetoscSzescianu(1)}<br/>`
+        outputDiv.innerHTML += `objetoscSzescianu(0) = ${objetoscSzescianu(0)}<br/>`
+
+        outputDiv.innerHTML += `<br/><b>${"Cyfry<br/>"}</b>`
+        outputDiv.innerHTML += `sumaCyfr(123) = ${sumaCyfr(123)}<br/>`
+        outputDiv.innerHTML += `sumaCyfr(124) = ${sumaCyfr(124)}<br/>`
+        outputDiv.innerHTML += `sumaCyfr(1) = ${sumaCyfr(1)}<br/>`
+        outputDiv.innerHTML += `sumaCyfr(0) = ${sumaCyfr(0)}<br/>`
+
+        outputDiv.innerHTML += `<br/><b>${"Zmiana<br/>"}</b>`
+        outputDiv.innerHTML += `zamienElementy([1, 2, 3, 4], 0, 1, 1) = ${zamienElementy([1, 2, 3, 4], 0, 1, 1)}<br/>`
+        outputDiv.innerHTML += `zamienElementy([1, 2, 3, 4], 0, 1, 0) = ${zamienElementy([1, 2, 3, 4], 0, 1, 0)}<br/>`
+        outputDiv.innerHTML += `zamienElementy([1, 2, 3, 4], 0, 10, 0) = ${zamienElementy([1, 2, 3, 4], 0, 10, 0)}<br/>`
+    </script>
+</body>
+
+</html>
